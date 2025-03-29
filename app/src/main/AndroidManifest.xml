@@ -13,9 +13,12 @@
         android:theme="@style/Theme.CodeQuantumproject"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_main"
             android:theme="@style/Theme.CodeQuantumproject">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
