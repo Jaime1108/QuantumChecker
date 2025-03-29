@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_mainscreen"
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center">
@@ -27,10 +28,10 @@
         <Button
             android:id="@+id/square_0_1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="374dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="@drawable/dark_square"/>
+            android:background="@drawable/dark_square" />
 
         <!-- Repeat the above Buttons for all 64 squares -->
     </GridLayout>
