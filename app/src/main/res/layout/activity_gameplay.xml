@@ -7,4 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".GameplayActivity">
 
+    <GridLayout
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="8"
+        android:rowCount="8"
+        android:orientation="horizontal">
+
+        <!-- Dynamically add 64 ImageViews for each square -->
+        <ImageView android:id="@+id/square_0_0" android:layout_width="50dp" android:layout_height="50dp"/>
+        <ImageView android:id="@+id/square_0_1" android:layout_width="50dp" android:layout_height="50dp"/>
+        <!-- ... repeat for all squares ... -->
+
+    </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
